@@ -1,0 +1,11 @@
+
+/* Add this CSS to your stylesheet */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-card:hover {
+    transform: scale(1.1); /* Increase size of card */
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.4); /* Add a blue shadow */
+  }
+  
